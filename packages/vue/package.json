@@ -1,0 +1,28 @@
+{
+  "name": "@mengjx/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
+  "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@mengjx/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
+}

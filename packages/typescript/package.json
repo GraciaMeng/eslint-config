@@ -1,0 +1,27 @@
+{
+  "name": "@mengjx/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
+  "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@mengjx/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
+}

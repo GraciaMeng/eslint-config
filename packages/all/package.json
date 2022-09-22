@@ -1,0 +1,25 @@
+{
+  "name": "@mengjx/eslint-config",
+  "version": "0.0.0",
+  "description": "MengJX's ESLint Config",
+  "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
+  "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@mengjx/eslint-config-react": "workspace:*",
+    "@mengjx/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
+}

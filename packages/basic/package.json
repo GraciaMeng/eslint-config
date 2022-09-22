@@ -1,0 +1,28 @@
+{
+  "name": "@mengjx/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
+  "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-unicorn": "^43.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
+}
