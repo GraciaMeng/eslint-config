@@ -24,12 +24,13 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/prefer-import-from-vue': 'off',
+    'vue/v-on-event-hyphenation': 'off',
 
     // reactivity transform
     'vue/no-setup-props-destructure': 'off',
 
     'vue/component-tags-order': ['error', {
-      order: ['script', 'template', 'style'],
+      order: ['template', 'script', 'style'],
     }],
     'vue/block-tag-newline': ['error', {
       singleline: 'always',
@@ -66,7 +67,7 @@ module.exports = {
     'vue/keyword-spacing': ['error', { before: true, after: true }],
     'vue/no-constant-condition': 'warn',
     'vue/no-empty-pattern': 'error',
-    'vue/no-extra-parens': ['error', 'functions'],
+    'vue/no-extra-parens': 'off',
     'vue/no-irregular-whitespace': 'error',
     'vue/no-loss-of-precision': 'error',
     'vue/no-restricted-syntax': [

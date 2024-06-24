@@ -92,7 +92,7 @@ module.exports = {
 
     // Common
     'semi': ['error', 'never'],
-    'curly': ['error', 'multi-or-nest', 'consistent'],
+    'curly': 'off',
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
     'no-unused-vars': 'warn',
@@ -105,8 +105,8 @@ module.exports = {
     'comma-style': ['error', 'last'],
     'comma-dangle': ['error', 'always-multiline'],
     'no-constant-condition': 'warn',
-    'no-debugger': 'error',
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-debugger': 'warn',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-cond-assign': ['error', 'always'],
     'func-call-spacing': ['off', 'never'],
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],

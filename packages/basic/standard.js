@@ -192,7 +192,7 @@ module.exports = {
     'operator-linebreak': ['error', 'after', { overrides: { '?': 'before', ':': 'before', '|>': 'before' } }],
     'padded-blocks': ['error', { blocks: 'never', switches: 'never', classes: 'never' }],
     'prefer-const': ['error', { destructuring: 'all' }],
-    'prefer-promise-reject-errors': 'error',
+    'prefer-promise-reject-errors': 'warn',
     'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],

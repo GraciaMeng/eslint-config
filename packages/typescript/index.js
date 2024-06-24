@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   overrides: basic.overrides,
+  parser: '@typescript-eslint/parser',
   rules: {
     'import/named': 'off',
 
@@ -71,7 +72,7 @@ module.exports = {
     'no-use-before-define': 'off',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'brace-style': 'off',
-    '@typescript-eslint/brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    '@typescript-eslint/brace-style': 'off',
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     'object-curly-spacing': 'off',
