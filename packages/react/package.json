@@ -1,11 +1,27 @@
 {
   "name": "@mengjx/eslint-config-react",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "ESLint config for React projects with TypeScript support",
   "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
   "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GraciaMeng/eslint-config.git",
+    "directory": "packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/GraciaMeng/eslint-config/issues"
+  },
   "keywords": [
-    "eslint-config"
+    "eslint",
+    "eslint-config",
+    "react",
+    "typescript",
+    "javascript",
+    "jsx",
+    "tsx",
+    "code-quality",
+    "linting"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -13,21 +29,18 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint . --config=index.js"
   },
   "peerDependencies": {
-    "eslint": ">=9.0.0"
+    "eslint": ">=7.4.0"
   },
   "dependencies": {
     "@mengjx/eslint-config-ts": "workspace:*",
-    "@typescript-eslint/parser": "^8.0.0",
-    "eslint-plugin-react": "^7.35.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.12",
-    "eslint-define-config": "^2.1.0"
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^8.23.1",
     "react": "^18.2.0",
     "typescript": "^4.8.3"
   }

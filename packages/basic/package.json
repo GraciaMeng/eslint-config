@@ -1,11 +1,23 @@
 {
   "name": "@mengjx/eslint-config-basic",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "ESLint config for basic JavaScript projects with modern standards",
   "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
   "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GraciaMeng/eslint-config.git",
+    "directory": "packages/basic"
+  },
+  "bugs": {
+    "url": "https://github.com/GraciaMeng/eslint-config/issues"
+  },
   "keywords": [
-    "eslint-config"
+    "eslint",
+    "eslint-config",
+    "javascript",
+    "code-quality",
+    "linting"
   ],
   "license": "MIT",
   "main": "index.js",

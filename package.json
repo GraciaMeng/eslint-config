@@ -1,6 +1,6 @@
 {
   "name": "@mengjx/eslint-config-monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "pnpm@7.8.0",
   "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",

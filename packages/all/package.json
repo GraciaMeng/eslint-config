@@ -1,11 +1,31 @@
 {
   "name": "@mengjx/eslint-config",
-  "version": "0.0.1",
-  "description": "MengJX's ESLint Config",
+  "version": "0.0.2",
+  "description": "Complete ESLint config for modern web development with React, Vue and TypeScript support",
   "author": "Gracia <1040616435@qq.com> (https://github.com/GraciaMeng/)",
   "homepage": "https://github.com/GraciaMeng/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GraciaMeng/eslint-config.git",
+    "directory": "packages/all"
+  },
+  "bugs": {
+    "url": "https://github.com/GraciaMeng/eslint-config/issues"
+  },
   "keywords": [
-    "eslint-config"
+    "eslint",
+    "eslint-config",
+    "react",
+    "vue",
+    "vue3",
+    "typescript",
+    "javascript",
+    "jsx",
+    "tsx",
+    "sfc",
+    "code-quality",
+    "linting",
+    "flat-config"
   ],
   "license": "MIT",
   "main": "index.js",
