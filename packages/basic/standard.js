@@ -1,25 +1,25 @@
 // Inline from https://github.com/standard/eslint-config-standard/blob/master/.eslintrc.json
-// Until it upgrades
+// Updated for ESLint 9 Flat Config
+const { defineConfig } = require('eslint-define-config')
+const importPlugin = require('eslint-plugin-import')
 
-module.exports = {
-  parserOptions: {
+module.exports = defineConfig({
+  languageOptions: {
     ecmaVersion: 2022,
-    ecmaFeatures: {
-      jsx: true,
-    },
     sourceType: 'module',
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
+    },
+    globals: {
+      document: 'readonly',
+      navigator: 'readonly',
+      window: 'readonly',
+    },
   },
-  env: {
-    es2021: true,
-    node: true,
-  },
-  plugins: [
-    'import',
-  ],
-  globals: {
-    document: 'readonly',
-    navigator: 'readonly',
-    window: 'readonly',
+  plugins: {
+    import: importPlugin,
   },
   rules: {
     'no-var': 'warn',
@@ -235,4 +235,4 @@ module.exports = {
     'import/no-named-default': 'error',
     'import/no-webpack-loader-syntax': 'error',
   },
-}
+})

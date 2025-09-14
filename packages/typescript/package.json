@@ -13,15 +13,16 @@
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "typescript": ">=3.9"
+    "eslint": ">=9.0.0",
+    "typescript": ">=4.0"
   },
   "dependencies": {
     "@mengjx/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.38.0",
-    "@typescript-eslint/parser": "^5.38.0"
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint-define-config": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^8.23.1"
+    "eslint": "^9.0.0"
   }
 }
